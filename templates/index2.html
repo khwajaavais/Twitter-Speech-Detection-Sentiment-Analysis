@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter Sentiment Analysis</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	
+	
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	<style>
+	h1{
+	color: #A3BAEF
+	}
+	</style>
+	
+	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/124/124021.png" type="image/icon type">
+	
+	
+</head>
+<body>
+	<br><br><br>
+	<h1 align="center">Twitter Speech Detection - Sentiment Analysis</h1>
+
+	<form action = {{ url_for('get_data')}} method = "post">
+		<div class="wrapper">
+		
+			<input type="text" class="input" name="search"	placeholder="What are you looking for?">
+
+		</div>
+	</form>
+</body>
+</html>
