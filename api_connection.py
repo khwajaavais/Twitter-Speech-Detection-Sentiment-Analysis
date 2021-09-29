@@ -7,11 +7,12 @@ import time
 
 ## Setting KEYS
 # API KEY
-api_key = "fcJESZ5sIhOyJ36Gtb34xKOiI"
-api_key_secret = "yLTe2IxT9csyRUl0FbdwlKy77AOXmpliIlYOxFnZB6aaslVLUv"
+# Refer My girhub profile for creating Tokens and Keys
+api_key = "AK"
+api_key_secret = "AKS"
 # Access Token
-access_token = "1442924034266521602-7zmGLoz2zrEfNL6ahTCYPSnVUlExyc"
-access_token_secret = "3kfnme3pFiPfrRXlH6DuYFSByu0ZZqtWeZmJQHeBmqpac"
+access_token = "AT"
+access_token_secret = "ATS"
 
 ## API Aithentication
 authentication = tweepy.OAuthHandler(api_key, api_key_secret)
