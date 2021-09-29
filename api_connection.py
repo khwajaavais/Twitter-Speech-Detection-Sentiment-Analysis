@@ -7,7 +7,7 @@ import time
 
 ## Setting KEYS
 # API KEY
-# Refer My girhub profile for creating Tokens and Keys
+# Refer My github profile for creating Tokens and Keys
 api_key = "AK"
 api_key_secret = "AKS"
 # Access Token
