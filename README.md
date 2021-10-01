@@ -3,7 +3,7 @@
 **DEMO: https://twitter-speech-detection-04.herokuapp.com/**
 
 ## PROJECT DESCRIPTION
-The context of this project is to classify the Positive and the Negative **real-time** Tweets fetched from the **Twitter API** using the Machine Learning and the Natural Language Programming algorithms.
+The context of this project is to classify the Positive and the Negative **real-time** Tweets fetched from the **Twitter API** using the Machine Learning and the Natural Language Processing algorithms.
 
 ## AIM & OBJECTIVE
 The aim of this project is to implement the Logistic Regression Algorithm and NLP Algorithms along with help of sentiment analysis in a newer manner and evaluate the performance of the chosen Machine Learning and NLP algorithm to find out the best suitable and efficient model for the chosen data set.
