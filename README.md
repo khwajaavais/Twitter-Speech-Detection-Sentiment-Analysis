@@ -56,7 +56,7 @@ For implementation, I used the TF-IDF Vectorizer Algorithm for removing the Engl
 
 **STEP - 3: PIPELINE CREATION**
 
-As both the above steps were important for classifying the Tweet as Postive or Negative; a Pipeline was created were both the above steps were implemented in this single step.
+As both the above steps were important for classifying the Tweet as Postive or Negative; a Pipeline was created where both the above steps were implemented in this single step.
 
 Where first the data was cleaned using the TF-IDF and then this data is passed for the classification purpose.
 
