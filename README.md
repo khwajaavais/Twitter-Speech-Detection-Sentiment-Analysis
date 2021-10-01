@@ -46,7 +46,7 @@ The implementation of the Twitter Speech Deteching Model Building is done in 3 s
 - **Stop words** are a group of words that are frequently employed in a language. Stop words in English include "a," "the," "is," "are," and others. 
 - Stop words are frequently used in Text Mining and Natural Language Processing (NLP) to exclude terms that are so widely used that they contain little meaningful information.
 
-For implementation, I used the TF-IDF Vectorizer Algorithm for removing the English stop words and fetched the top 1,000 most used words from the text.
+For implementation, I used the TF-IDF Vectorizer Algorithm for removing the English stop words and fetched the top 10,000 most used words from the text.
 
 **STEP - 2:** Implementation of Logistic Regression
 - As the problem  statement was about classification of real-time Tweets; **Logistic Regression** is used.
@@ -92,7 +92,6 @@ For implementating the project in your own system follow the steps;
 
 - Hit http://127.0.0.1:5000/
 
--  
 
 **WEB APPLICATION**
 
